@@ -1,1 +1,2 @@
-# face-trucking-systeme
+# face-trucking-systeme_p37_arduino
+this is a face trucking systeme. this proejc has two parts: first part: is the face detection system which is based on Haar cascade classifier with opencv,this classifier will draw a rectangle on your face(camera) then send the center of this rectangle to arduino uno with serial port. second part: the arduino receive this coordinates and turn them to the servos which make the pan-titl kit follow the face.
